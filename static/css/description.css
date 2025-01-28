@@ -1,0 +1,10 @@
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description p{
+    font-size: 20px;
+    line-height: auto;
+    text-align: left;
+}

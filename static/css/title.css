@@ -1,11 +1,15 @@
 .title{
     display: flex;
     flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
 }
 .title img{
     width: 225px;
 }
 
-/*.title h1{
-    
-}*
+.title h1{
+    font-size: 52px;
+    line-height: auto;
+    font-weight: bold;
+}

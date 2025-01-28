@@ -1,5 +1,8 @@
 @import "hero.css";
 @import "title.css";
+@import "commons.css";
+@import "description.css";
+@import "content.css";
 
 
 body{
