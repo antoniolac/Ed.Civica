@@ -1,0 +1,11 @@
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.title img{
+    width: 225px;
+}
+
+/*.title h1{
+    
+}*

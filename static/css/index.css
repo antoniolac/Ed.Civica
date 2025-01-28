@@ -1,0 +1,8 @@
+@import "hero.css";
+@import "title.css";
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
