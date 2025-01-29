@@ -1,6 +1,6 @@
-.content{
+.content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Disposizione verticale */
     justify-content: center;
     align-items: center;
     width: 255px;
@@ -8,17 +8,35 @@
     background-color: #D9D9D9;
     border-radius: 15px;
     margin-right: 91px;
+    text-align: center; /* Per allineare il testo */
 }
 
-.content label{
-    font-size: 24px;
-    line-height: auto;
-    text-align: left;
-    padding-left: 33px;
+.content figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Rimuove margini indesiderati */
 }
 
-.content figure>img{
-    width: 200px;
+.content figure > img {
+    width: 190px;
     height: auto;
 }
 
+.content label {
+    font-size: 24px;
+    margin-top: 10px; /* Spazio tra immagine e testo */
+    text-align: center;
+}
+
+
+.content:hover{
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+    display: inline-block; 
+}
