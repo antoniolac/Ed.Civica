@@ -1,6 +1,6 @@
 .content {
     display: flex;
-    flex-direction: column; /* Disposizione verticale */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     width: 255px;
@@ -8,7 +8,7 @@
     background-color: #D9D9D9;
     border-radius: 15px;
     margin-right: 91px;
-    text-align: center; /* Per allineare il testo */
+    text-align: center; 
 }
 
 .content figure {
@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0; /* Rimuove margini indesiderati */
+    margin: 0; 
 }
 
 .content figure > img {
@@ -26,7 +26,7 @@
 
 .content label {
     font-size: 24px;
-    margin-top: 10px; /* Spazio tra immagine e testo */
+    margin-top: 10px; 
     text-align: center;
 }
 
@@ -39,4 +39,52 @@ a {
     text-decoration: none;
     color: inherit; 
     display: inline-block; 
+}
+
+
+@media (max-width: 440px) {
+    
+    .content {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 98px;
+        height: 94px;
+        background-color: #D9D9D9;
+        border-radius: 15px;
+        margin-right: 11px;
+        text-align: center; 
+    }
+    
+    .content figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0; 
+    }
+    
+    .content figure > img {
+        width: 60px;
+        height: auto;
+    }
+    
+    .content label {
+        font-size: 8px;
+        line-height: auto;
+        margin-top: 2px;
+        text-align: center;
+    }
+    
+    
+    .content:hover{
+        transform: scale(1.1);
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit; 
+        display: inline-block; 
+    }
 }

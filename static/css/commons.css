@@ -21,3 +21,11 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+@media (max-width: 440px) {
+  #link{
+    font-size: 20px;
+    line-height: auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}

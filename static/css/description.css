@@ -9,3 +9,16 @@
     line-height: auto;
     text-align: left;
 }
+@media (max-width: 440px) {
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p{
+        font-size: 14px;
+        line-height: auto;
+        text-align: left;
+    }
+}
