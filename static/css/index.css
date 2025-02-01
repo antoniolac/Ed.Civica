@@ -5,7 +5,8 @@
 @import "container.css";
 @import "content.css";
 @import "footer.css";
-
+@import "main.css";
+@import "player.css";
 
 body{
     display: flex;

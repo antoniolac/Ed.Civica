@@ -1,0 +1,79 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 570px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.player h2{
+    font-size: 20px;
+}
+.player button {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3498db;
+    color: white;
+}
+
+.player button:hover {
+    background: #2980b9;
+}
+
+.player input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.player figure>img{
+    margin-top: 20px;
+    width: 300px;
+}
+
+@media (max-width: 440px) {
+    .player {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 300px;
+        height: 470px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .player h2{
+        font-size: 15px;
+    }
+    .player button {
+        font-size: 15px;
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #3498db;
+        color: white;
+    }
+    
+    .player button:hover {
+        background: #2980b9;
+    }
+    
+    .player input[type="range"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .player figure>img{
+        margin-top: 10px;
+        width: 200px;
+    }
+}
